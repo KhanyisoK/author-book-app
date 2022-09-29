@@ -37,12 +37,10 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
-    git clone git@github.com:gothinkster/laravel-realworld-example-app.git
+    git clone https://github.com/KhanyisoK/author-book-app.git
     cd author-book-app
     composer install
     cp .env.example .env
-    php artisan key:generate
-    php artisan jwt:generate 
     
 **Make sure you set the correct database connection information before running the migrations** [Environment variables](#environment-variables)
 
